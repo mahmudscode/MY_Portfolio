@@ -1,0 +1,262 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shaired style */
+.text-primary {
+    color: #fd6e0a;
+    ;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-desc {
+    font-size: 18px;
+    color: #757575;
+}
+
+.secondery-bg {
+    background-color: #fff8f3;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* heder style */
+.header {
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.btn-primary {
+    margin-top: 100px;
+    background-color: #fd6e0a;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.one {
+    margin-right: 20px;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+/* nav style */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #bbb9b8; */
+    margin: 0px 0px;
+}
+
+.nav-title {
+    font-weight: 800;
+    font-size: 35px;
+    margin-left: 150px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    margin-right: 150px;
+    align-items: center;
+
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+/* banner style */
+.banner-top {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0 35px 0 200px; */
+}
+
+.banner-img {
+    position: top;
+    height: 580px;
+}
+
+.banner-content {
+    margin-left: 80px;
+}
+
+.banner-deccription {
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+/* main */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 130px;
+
+}
+
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* about me */
+.about {
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+.about-items {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description {
+    font-weight: 600;
+}
+
+/* what i do */
+.section-desc {
+    margin-bottom: 50px;
+}
+
+.skills-cointainer {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* education */
+.education {
+    display: flex;
+    gap: 24px;
+}
+
+.education-background {
+    padding: 40px;
+    background-color: #fff8f3;
+}
+
+.degry {
+    font-size: 30px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.institutr-title {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+.summary {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.edu-box {
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.txt-gap {
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+/* achivments */
+.first {
+    display: flex;
+    gap: 40px;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.second {
+    display: flex;
+    gap: 40px;
+}
+
+/* footer */
+footer {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.footer-colum {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+}
+.btn-secondery {
+    margin-top: 10px;
+    background-color: #fd6e0a;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+}
