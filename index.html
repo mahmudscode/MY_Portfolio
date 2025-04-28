@@ -16,13 +16,17 @@
     <header class="header secondery-bg">
         <nav>
             <h3 class="nav-title">SU<span class="text-primary">P</span>TO</h3>
-            <ul>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
                 <li><a href="#meabout">About Me</a></li>
                 <li><a href="#whatido">What I Do</a></li>
                 <li><a href="#eduktion">Education</a></li>
                 <li><a href="#acvment">Achivment</a></li>
                 <li><a href="#Resume">Resume</a></li>
-
             </ul>
         </nav>
         <div class="banner">
@@ -210,6 +214,26 @@
             </form>
         </div>
     </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger-menu');
+            const navLinks = document.querySelector('.nav-links');
+            
+            hamburger.addEventListener('click', function() {
+                this.classList.toggle('active');
+                navLinks.classList.toggle('active');
+            });
+            
+            // Close menu when clicking on a link
+            const navItems = document.querySelectorAll('.nav-links li a');
+            navItems.forEach(item => {
+                item.addEventListener('click', function() {
+                    hamburger.classList.remove('active');
+                    navLinks.classList.remove('active');
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
