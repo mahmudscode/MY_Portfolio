@@ -55,11 +55,10 @@
             </h2>
             <p class="section-desc">
                 I'm MD Mahmudur Rahman Supto, CSE student (Batch_64) , ID-0242310005101419 currently studying at
-                Daffodil
-                International University. I am passionate about learning and developing with C++, Database Management
+                Daffodil International University. I am passionate about learning and developing with C++, Database
+                Management
                 System, and Flutter. Currently, I'm focusing on mastering App Development and algorithms while also
-                exploring the
-                world of Cyber Security. I also enjoy solving real life challenging problems.
+                exploring the world of Cyber Security. I also enjoy solving real life challenging problems.
             </p>
             <div class="about-items">
                 <!-- .about-item*4>p.item-title+p.item-description -->
@@ -201,7 +200,7 @@
             <a href="https://x.com/MDMahmud1231123"><img src="images/icons/icons8-x-30.png" alt=""></a>
             <a href="https://www.instagram.com/mahmudur_rahman_supto_/"><img src="images/icons/icons8-instagram-30.png"
                     alt=""></a>
-                    <a href="https://github.com/mahmudscode"><img src="images/icons/icons8-github-30.png" alt=""></a>
+            <a href="https://github.com/mahmudscode"><img src="images/icons/icons8-github-30.png" alt=""></a>
         </div>
         <div class="footer-colum">
             <h3 class="section-title">Send Me a Message</h3>
@@ -215,19 +214,19 @@
         </div>
     </footer>
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const hamburger = document.querySelector('.hamburger-menu');
             const navLinks = document.querySelector('.nav-links');
-            
-            hamburger.addEventListener('click', function() {
+
+            hamburger.addEventListener('click', function () {
                 this.classList.toggle('active');
                 navLinks.classList.toggle('active');
             });
-            
+
             // Close menu when clicking on a link
             const navItems = document.querySelectorAll('.nav-links li a');
             navItems.forEach(item => {
-                item.addEventListener('click', function() {
+                item.addEventListener('click', function () {
                     hamburger.classList.remove('active');
                     navLinks.classList.remove('active');
                 });
