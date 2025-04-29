@@ -70,6 +70,7 @@ nav {
     font-size: 35px;
     margin-left: 150px;
 }
+
 nav ul li a {
     position: relative;
     transition: color 0.3s ease;
@@ -258,6 +259,11 @@ main section {
     gap: 40px;
 }
 
+.third {
+    display: flex;
+    gap: 40px;
+}
+
 /* Footer */
 footer {
     padding: 130px 230px;
@@ -386,11 +392,12 @@ footer textarea {
     .header {
         background-image: none !important;
     }
-     .hamburger-menu {
+
+    .hamburger-menu {
         display: flex;
         margin-right: 20px;
     }
-    
+
     .nav-links {
         position: fixed;
         top: 0;
@@ -406,28 +413,28 @@ footer textarea {
         z-index: 99;
         box-shadow: -5px 0 15px rgba(0, 0, 0, 0.1);
     }
-    
+
     .nav-links.active {
         right: 0;
     }
-    
+
     .hamburger-menu.active .bar:nth-child(1) {
         transform: translateY(8px) rotate(45deg);
     }
-    
+
     .hamburger-menu.active .bar:nth-child(2) {
         opacity: 0;
     }
-    
+
     .hamburger-menu.active .bar:nth-child(3) {
         transform: translateY(-8px) rotate(-45deg);
     }
-    
+
     nav {
         justify-content: space-between;
         padding: 15px 20px;
     }
-    
+
     .nav-title {
         margin-left: 0;
     }
@@ -488,7 +495,8 @@ footer textarea {
     }
 
     .first,
-    .second {
+    .second,
+    .third {
         flex-direction: column;
         gap: 20px;
     }
@@ -496,16 +504,19 @@ footer textarea {
     .video {
         height: 250px;
     }
-    .first img, 
+
+    .first img,
     .second img,
+    .third img,
     .achivments img {
         width: 100%;
         height: auto;
         max-width: 100%;
     }
-    
-    .first > div,
-    .second > div {
+
+    .first>div,
+    .second>div,
+    .third>div {
         width: 100%;
     }
 
