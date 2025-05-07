@@ -189,15 +189,14 @@
                 </div>
 
             </div>
-            
+
         </section>
         <!-- resume -->
         <section id="Resume" class="video_resume">
             <h2 class="text-center title">MY Video Resume</h2>
-            <div>
-                <iframe class="video" width="1076" height="550"
-                    src="https://www.youtube.com/embed/DGHn2uOAVCE?si=aEF7QXIgrxQ7fist" title="YouTube video player"
-                    frameborder="0"
+            <div class="video-container">
+                <iframe class="video" width="1076" height="550" src="https://www.youtube.com/embed/cevzw01JWgw"
+                    title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
@@ -236,7 +235,6 @@
                 navLinks.classList.toggle('active');
             });
 
-            // Close menu when clicking on a link
             const navItems = document.querySelectorAll('.nav-links li a');
             navItems.forEach(item => {
                 item.addEventListener('click', function () {
