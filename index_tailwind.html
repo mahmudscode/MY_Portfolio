@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mahmudur Rahman Supto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <!-- Header -->
+    <header class="bg-orange-50 bg-[url('images/header_bg.png')] bg-no-repeat bg-bottom bg-right">
+        <!-- Navigation -->
+        <nav class="flex items-center justify-between px-6 lg:px-40 py-6">
+            <h3 class="text-3xl font-extrabold text-gray-900">SU<span class="text-orange-500">P</span>TO</h3>
+            
+            <!-- Hamburger Menu -->
+            <div class="hamburger-menu lg:hidden flex flex-col justify-around w-8 h-6 cursor-pointer z-50">
+                <div class="bar w-full h-0.5 bg-gray-900 transition-all duration-300"></div>
+                <div class="bar w-full h-0.5 bg-gray-900 transition-all duration-300"></div>
+                <div class="bar w-full h-0.5 bg-gray-900 transition-all duration-300"></div>
+            </div>
+            
+            <!-- Nav Links -->
+            <ul class="nav-links hidden lg:flex gap-8 text-xl">
+                <li><a href="#meabout" class="hover:text-orange-500 transition-colors relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-orange-500 after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">About Me</a></li>
+                <li><a href="#whatido" class="hover:text-orange-500 transition-colors relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-orange-500 after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">What I Do</a></li>
+                <li><a href="#eduktion" class="hover:text-orange-500 transition-colors relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-orange-500 after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Education</a></li>
+                <li><a href="#acvment" class="hover:text-orange-500 transition-colors relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-orange-500 after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Achievement</a></li>
+                <li><a href="#Resume" class="hover:text-orange-500 transition-colors relative after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-orange-500 after:left-0 after:-bottom-1 after:transition-all hover:after:w-full">Resume</a></li>
+            </ul>
+        </nav>
+
+        <!-- Banner -->
+        <div class="flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-20 pb-12 lg:pb-0">
+            <div class="lg:ml-16 text-center lg:text-left max-w-2xl">
+                <h3 class="text-3xl lg:text-5xl font-semibold text-gray-700 mb-4">Hi I am</h3>
+                <h1 class="text-4xl lg:text-6xl font-bold text-gray-900 mb-6">MD. Mahmudur Rahman Supto</h1>
+                <p class="text-base lg:text-lg text-gray-600 mb-8 leading-relaxed">
+                    As a Computer Science and Engineering student, I pride myself on being a responsible and orderly
+                    individual. I am proficient in programming language and possess strong strategic abilities. I am
+                    excited to continue learning and growing in Computer Science and Engineering.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                    <a href="images/MD. Mahmudur Rahman Supto.pdf" download 
+                       class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded transition-colors">
+                        Download CV
+                    </a>
+                    <a href="#contact" 
+                       class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded transition-colors">
+                        Contact
+                    </a>
+                </div>
+            </div>
+            <img class="h-64 lg:h-[580px] mb-8 lg:mb-0" src="images/mahmud_1.png" alt="Mahmudur Rahman Supto">
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-6 mt-20 lg:mt-32">
+        <!-- About Section -->
+        <section id="meabout" class="bg-orange-50 rounded-xl p-8 lg:p-32 text-center my-20 lg:my-32">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">ABOUT ME</h2>
+            <p class="text-base lg:text-lg text-gray-600 mb-12 leading-relaxed">
+                I'm MD Mahmudur Rahman Supto, CSE student (Batch_64), ID-0242310005101419 currently studying at
+                Daffodil International University. I am passionate about learning and developing with C++, Database
+                Management System, and Flutter. Currently, I'm focusing on mastering App Development and algorithms while also
+                exploring the world of Cyber Security. I also enjoy solving real life challenging problems.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <p class="font-semibold text-gray-700 mb-2">Name</p>
+                    <p class="font-bold text-gray-900">MD. Mahmudur Rahman Supto</p>
+                </div>
+                <div>
+                    <p class="font-semibold text-gray-700 mb-2">Email</p>
+                    <p class="font-bold text-gray-900">mahmud102496@gmail.com<br>supto23105101419@diu.edu.bd</p>
+                </div>
+                <div>
+                    <p class="font-semibold text-gray-700 mb-2">Date of Birth</p>
+                    <p class="font-bold text-gray-900">September 30, 2003</p>
+                </div>
+                <div>
+                    <p class="font-semibold text-gray-700 mb-2">From</p>
+                    <p class="font-bold text-gray-900">Dhaka, Bangladesh</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- What I Do Section -->
+        <section id="whatido" class="my-20 lg:my-32">
+            <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 text-center mb-6">What I Do</h2>
+            <p class="text-base lg:text-lg text-gray-600 text-center mb-12 max-w-4xl mx-auto leading-relaxed">
+                I am a 3rd-year Computer Science and Engineering student with a strong passion for technology and
+                software development. Below is a quick overview of the main technical skills and technologies I am
+                currently working with. I am constantly learning and improving through academic projects, personal
+                practice, and real-world problem-solving. Feel free to check out my resume and project portfolio to
+                learn more about my journey.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow bg-white">
+                    <img src="images/icons/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template.png" 
+                         alt="C++" class="mb-4 h-16">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">C++</h3>
+                    <p class="text-gray-600">I have solid experience developing efficient algorithms, working with
+                        complex data structures, and building high-performance applications in C++.</p>
+                </div>
+                <div class="p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow bg-white">
+                    <img src="images/icons/png-clipart-computer-icons-java-å'–å•¡æµ·æŠ¥å›¾ç‰‡ç´ æ-miscellaneous-text (1).png" 
+                         alt="Java" class="mb-4 h-16">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Java</h3>
+                    <p class="text-gray-600">I have worked with Java to create scalable backend systems
+                        and cross-platform applications, along with hands-on experience in Android development.</p>
+                </div>
+                <div class="p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow bg-white">
+                    <img src="images/icons/icons8-python-48.png" alt="Python" class="mb-4 h-16">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Python</h3>
+                    <p class="text-gray-600">I actively use Python for web development, writing clean, efficient,
+                        and maintainable code.</p>
+                </div>
+                <div class="p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow bg-white">
+                    <img src="images/icons/icons8-flutter-48.png" alt="Flutter" class="mb-4 h-16">
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Flutter</h3>
+                    <p class="text-gray-600">I have hands-on experience developing beautiful, responsive, and
+                        high-performing mobile apps for both iOS and Android using Flutter and Dart.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="eduktion" class="bg-orange-50 p-8 lg:p-16 rounded-xl my-20 lg:my-32">
+            <h2 class="text-3xl lg:text-5xl font-bold text-gray-900 text-center mb-12">MY Educational Background</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="p-6 rounded-lg shadow-lg bg-white">
+                    <h3 class="text-2xl lg:text-3xl font-black text-gray-900 mb-4">Secondary School Certificate</h3>
+                    <h4 class="text-lg lg:text-xl font-black text-gray-700 mb-4">B.K. Secondary School/2017-2019</h4>
+                    <p class="text-gray-600">I have passed the SSC exam with a gpa of 4.39 in 2019</p>
+                </div>
+                <div class="p-6 rounded-lg shadow-lg bg-white">
+                    <h3 class="text-2xl lg:text-3xl font-black text-gray-900 mb-4">Higher Secondary Certificate</h3>
+                    <h4 class="text-lg lg:text-xl font-black text-gray-700 mb-4">Barishal Govt. Model School & College/2019-2021</h4>
+                    <p class="text-gray-600">I have passed the HSC exam with a gpa of 4.75 in 2021</p>
+                </div>
+                <div class="p-6 rounded-lg shadow-lg bg-white">
+                    <h3 class="text-2xl lg:text-3xl font-black text-gray-900 mb-4">B.Sc. in Computer Science & Engineering</h3>
+                    <h4 class="text-lg lg:text-xl font-black text-gray-700 mb-4">Daffodil International University/2023-Present</h4>
+                    <p class="text-gray-600">I am currently pursuing my B.Sc. degree in Computer Science and Engineering</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="acvment" class="bg-orange-50 p-8 lg:p-16 rounded-xl my-20 lg:my-32">
+            <h2 class="text-3xl lg:text-5xl font-bold text-gray-900 text-center mb-12">Achievements</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/aciv-1.png" alt="Achievement 1" class="w-full h-auto mb-4 rounded">
+                    <p class="text-gray-700 font-semibold">Start-up Entrepreneurship: Complete Guidelines</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/achiv-2.jpg" alt="Achievement 2" class="w-full h-auto mb-4 rounded">
+                    <p class="text-gray-700 font-semibold">Optimization Using Artificial Intelligence: Hill Climbing Algorithm</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/Screenshot 2025-04-27 022454.png" alt="Achievement 3" class="w-full h-auto mb-4 rounded">
+                    <p class="text-gray-700 font-semibold">AWS Academy Cloud Foundations</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/WhatsApp Image 2025-04-27 at 02.27.13_a2d60c8c.jpg" alt="Achievement 4" class="w-full h-auto mb-4 rounded">
+                    <p class="text-gray-700 font-semibold">DIU IOT workshop Fall 2024</p>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/uta.jpg" alt="Achievement 5" class="w-full h-auto mb-4 rounded">
+                    <p class="text-gray-700 font-semibold">DIU Unlock The Algorithm Spring 2024</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="images/takeoff.jpg" alt="Achievement 6" class="w-full h-auto mb-4 rounded">
+                    <p class="text-gray-700 font-semibold">DIU TAKE-OFF Programming Contest Spring 2023</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Resume Section -->
+        <section id="Resume" class="my-20 lg:my-32">
+            <h2 class="text-3xl lg:text-5xl font-bold text-gray-900 text-center mb-12">MY Video Resume</h2>
+            <div class="relative pb-[56.25%] h-0 overflow-hidden max-w-full mx-auto rounded-xl shadow-2xl">
+                <iframe class="absolute top-0 left-0 w-full h-full" 
+                        src="https://www.youtube.com/embed/cevzw01JWgw"
+                        title="YouTube video player" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-orange-50 px-6 lg:px-48 py-20 lg:py-32">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24">
+            <div>
+                <h2 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">Let's Connect</h2>
+                <p class="text-gray-600 mb-6 leading-relaxed">Please fill out the form on this section to contact with me or call between
+                    9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+                <div class="flex gap-4">
+                    <a href="https://www.linkedin.com/in/mahmudur-rahman-2a37a5307/" class="hover:opacity-70 transition-opacity">
+                        <img src="images/icons/icons8-linkedin-30.png" alt="LinkedIn" class="w-8 h-8">
+                    </a>
+                    <a href="https://x.com/MDMahmud1231123" class="hover:opacity-70 transition-opacity">
+                        <img src="images/icons/icons8-x-30.png" alt="X (Twitter)" class="w-8 h-8">
+                    </a>
+                    <a href="https://www.instagram.com/mahmudur_rahman_supto_/" class="hover:opacity-70 transition-opacity">
+                        <img src="images/icons/icons8-instagram-30.png" alt="Instagram" class="w-8 h-8">
+                    </a>
+                </div>
+            </div>
+            <div>
+                <h3 class="text-2xl lg:text-3xl font-bold text-gray-900 mb-6">Send Me a Message</h3>
+                <form action="https://api.web3forms.com/submit" method="POST" class="space-y-6">
+                    <input type="hidden" name="access_key" value="7b6eb1cd-a467-44f7-b460-5b9de88939b8">
+                    <input type="text" name="YOUR_name" placeholder="Your Name" 
+                           class="w-full h-16 text-lg rounded-lg bg-white px-5 py-3 border-none focus:ring-2 focus:ring-orange-500 outline-none">
+                    <input type="email" name="Your_email" placeholder="Your Email" 
+                           class="w-full h-16 text-lg rounded-lg bg-white px-5 py-3 border-none focus:ring-2 focus:ring-orange-500 outline-none">
+                    <textarea name="YOUR_massage" rows="5" placeholder="Your Message" 
+                              class="w-full text-lg rounded-lg bg-white px-5 py-3 border-none focus:ring-2 focus:ring-orange-500 outline-none resize-none"></textarea>
+                    <button type="submit" 
+                            class="bg-orange-500 hover:bg-orange-600 text-white font-bold text-lg px-8 py-4 rounded transition-colors">
+                        Submit
+                    </button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Optimized Portfolio JS
+        (function() {
+            'use strict';
+
+            // Cache DOM elements
+            const elements = {
+                hamburger: document.querySelector('.hamburger-menu'),
+                navLinks: document.querySelector('.nav-links'),
+                navItems: document.querySelectorAll('.nav-links li a'),
+                sections: document.querySelectorAll('section[id]'),
+                skillCards: document.querySelectorAll('.skill-card'),
+                achievementCards: document.querySelectorAll('.achievement-card'),
+                eduCards: document.querySelectorAll('.edu-card')
+            };
+
+            // Mobile Menu Toggle with optimized animations
+            function toggleMobileMenu() {
+                const isActive = elements.hamburger.classList.toggle('active');
+                elements.navLinks.classList.toggle('active');
+                
+                const mobileClasses = ['flex', 'fixed', 'top-0', 'right-0', 'w-3/4', 'h-screen', 
+                                       'bg-orange-50', 'flex-col', 'items-center', 'justify-center', 
+                                       'gap-8', 'z-40', 'shadow-2xl'];
+                
+                if (isActive) {
+                    elements.navLinks.classList.remove('hidden');
+                    elements.navLinks.classList.add(...mobileClasses);
+                    document.body.style.overflow = 'hidden'; // Prevent scroll when menu open
+                } else {
+                    elements.navLinks.classList.add('hidden');
+                    elements.navLinks.classList.remove(...mobileClasses);
+                    document.body.style.overflow = '';
+                }
+                
+                animateHamburger(isActive);
+            }
+
+            // Animate hamburger bars
+            function animateHamburger(isActive) {
+                const bars = elements.hamburger.querySelectorAll('.bar');
+                const transforms = isActive 
+                    ? ['translateY(8px) rotate(45deg)', '0', 'translateY(-8px) rotate(-45deg)']
+                    : ['', '', ''];
+                const opacity = isActive ? '0' : '';
+                
+                bars[0].style.transform = transforms[0];
+                bars[1].style.opacity = opacity;
+                bars[2].style.transform = transforms[2];
+            }
+
+            // Close mobile menu
+            function closeMobileMenu() {
+                elements.hamburger.classList.remove('active');
+                elements.navLinks.classList.remove('active');
+                elements.navLinks.classList.add('hidden');
+                elements.navLinks.classList.remove('flex', 'fixed', 'top-0', 'right-0', 'w-3/4', 
+                    'h-screen', 'bg-orange-50', 'flex-col', 'items-center', 'justify-center', 
+                    'gap-8', 'z-40', 'shadow-2xl');
+                document.body.style.overflow = '';
+                animateHamburger(false);
+            }
+
+            // Smooth scroll with offset for fixed header
+            function smoothScroll(e) {
+                const targetId = this.getAttribute('href');
+                if (targetId.startsWith('#')) {
+                    e.preventDefault();
+                    const target = document.querySelector(targetId);
+                    if (target) {
+                        const offset = 80;
+                        const targetPosition = target.offsetTop - offset;
+                        window.scrollTo({
+                            top: targetPosition,
+                            behavior: 'smooth'
+                        });
+                        closeMobileMenu();
+                    }
+                }
+            }
+
+            // Intersection Observer for scroll animations
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const fadeInObserver = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '0';
+                        entry.target.style.transform = 'translateY(30px)';
+                        entry.target.style.transition = 'opacity 0.6s ease-out, transform 0.6s ease-out';
+                        
+                        // Trigger animation
+                        requestAnimationFrame(() => {
+                            entry.target.style.opacity = '1';
+                            entry.target.style.transform = 'translateY(0)';
+                        });
+                        
+                        fadeInObserver.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            // Observe sections for fade-in animation
+            elements.sections.forEach(section => {
+                fadeInObserver.observe(section);
+            });
+
+            // Lazy load images
+            function lazyLoadImages() {
+                const images = document.querySelectorAll('img[data-src]');
+                const imageObserver = new IntersectionObserver((entries) => {
+                    entries.forEach(entry => {
+                        if (entry.isIntersecting) {
+                            const img = entry.target;
+                            img.src = img.dataset.src;
+                            img.removeAttribute('data-src');
+                            imageObserver.unobserve(img);
+                        }
+                    });
+                });
+
+                images.forEach(img => imageObserver.observe(img));
+            }
+
+            // Active navigation highlighting on scroll
+            function highlightActiveNav() {
+                const scrollY = window.pageYOffset;
+                
+                elements.sections.forEach(section => {
+                    const sectionHeight = section.offsetHeight;
+                    const sectionTop = section.offsetTop - 100;
+                    const sectionId = section.getAttribute('id');
+                    
+                    if (scrollY > sectionTop && scrollY <= sectionTop + sectionHeight) {
+                        elements.navItems.forEach(item => {
+                            item.classList.remove('text-orange-500');
+                            if (item.getAttribute('href') === `#${sectionId}`) {
+                                item.classList.add('text-orange-500');
+                            }
+                        });
+                    }
+                });
+            }
+
+            // Throttle function for scroll performance
+            function throttle(func, wait) {
+                let timeout;
+                return function executedFunction(...args) {
+                    const later = () => {
+                        clearTimeout(timeout);
+                        func(...args);
+                    };
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+                };
+            }
+
+            // Debounce function for resize performance
+            function debounce(func, wait) {
+                let timeout;
+                return function executedFunction(...args) {
+                    clearTimeout(timeout);
+                    timeout = setTimeout(() => func(...args), wait);
+                };
+            }
+
+            // Add stagger animation to cards
+            function staggerCards(cards, delay = 100) {
+                cards.forEach((card, index) => {
+                    setTimeout(() => {
+                        card.style.opacity = '0';
+                        card.style.transform = 'translateY(20px)';
+                        card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+                        
+                        requestAnimationFrame(() => {
+                            card.style.opacity = '1';
+                            card.style.transform = 'translateY(0)';
+                        });
+                    }, index * delay);
+                });
+            }
+
+            // Form validation
+            function validateForm(e) {
+                const form = e.target;
+                const name = form.querySelector('input[name="YOUR_name"]');
+                const email = form.querySelector('input[name="Your_email"]');
+                const message = form.querySelector('textarea[name="YOUR_massage"]');
+                
+                let isValid = true;
+                
+                if (!name.value.trim()) {
+                    showError(name, 'Please enter your name');
+                    isValid = false;
+                }
+                
+                if (!email.value.trim() || !isValidEmail(email.value)) {
+                    showError(email, 'Please enter a valid email');
+                    isValid = false;
+                }
+                
+                if (!message.value.trim()) {
+                    showError(message, 'Please enter a message');
+                    isValid = false;
+                }
+                
+                if (!isValid) {
+                    e.preventDefault();
+                }
+            }
+
+            function isValidEmail(email) {
+                return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+            }
+
+            function showError(input, message) {
+                input.classList.add('ring-2', 'ring-red-500');
+                setTimeout(() => {
+                    input.classList.remove('ring-2', 'ring-red-500');
+                }, 3000);
+            }
+
+            // Back to top button
+            function createBackToTop() {
+                const button = document.createElement('button');
+                button.innerHTML = '↑';
+                button.className = 'fixed bottom-8 right-8 bg-orange-500 text-white w-12 h-12 rounded-full shadow-lg opacity-0 transition-opacity duration-300 hover:bg-orange-600 z-50';
+                button.style.display = 'none';
+                button.setAttribute('aria-label', 'Back to top');
+                
+                button.addEventListener('click', () => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                });
+                
+                document.body.appendChild(button);
+                
+                window.addEventListener('scroll', throttle(() => {
+                    if (window.pageYOffset > 300) {
+                        button.style.display = 'block';
+                        setTimeout(() => button.style.opacity = '1', 10);
+                    } else {
+                        button.style.opacity = '0';
+                        setTimeout(() => button.style.display = 'none', 300);
+                    }
+                }, 200));
+            }
+
+            // Initialize everything
+            function init() {
+                // Event listeners
+                if (elements.hamburger) {
+                    elements.hamburger.addEventListener('click', toggleMobileMenu);
+                }
+                
+                elements.navItems.forEach(item => {
+                    item.addEventListener('click', smoothScroll);
+                });
+
+                // Scroll events with throttle
+                window.addEventListener('scroll', throttle(highlightActiveNav, 100));
+
+                // Form validation
+                const form = document.querySelector('form');
+                if (form) {
+                    form.addEventListener('submit', validateForm);
+                }
+
+                // Lazy load images
+                lazyLoadImages();
+
+                // Create back to top button
+                createBackToTop();
+
+                // Stagger animations on load
+                if (window.innerWidth > 768) {
+                    setTimeout(() => {
+                        const skillCards = document.querySelectorAll('#whatido > div > div');
+                        if (skillCards.length) staggerCards(skillCards);
+                    }, 300);
+                }
+
+                // Handle window resize
+                window.addEventListener('resize', debounce(() => {
+                    if (window.innerWidth > 1024 && elements.navLinks.classList.contains('active')) {
+                        closeMobileMenu();
+                    }
+                }, 250));
+
+                // Prevent body scroll when mobile menu is open
+                document.addEventListener('touchmove', (e) => {
+                    if (elements.navLinks.classList.contains('active') && 
+                        !elements.navLinks.contains(e.target)) {
+                        e.preventDefault();
+                    }
+                }, { passive: false });
+            }
+
+            // Run when DOM is ready
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', init);
+            } else {
+                init();
+            }
+
+        })();
+    </script>
+</body>
+
+</html>
