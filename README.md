@@ -2,19 +2,6 @@
 
 A modern, responsive personal portfolio website built with **Tailwind CSS** and optimized **JavaScript** for showcasing skills, education, achievements, and projects.
 
-## 📋 Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Project Structure](#project-structure)
-- [Customization](#customization)
-- [Performance Optimizations](#performance-optimizations)
-- [Browser Support](#browser-support)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
-
 ## ✨ Features
 
 ### 🎨 Design & UI
