@@ -209,58 +209,6 @@ xl: 1280px+ (Large Desktop)
 2xl: 1536px+ (Extra Large)
 ```
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Issue: Images not loading**
-- Solution: Check file paths are correct and images exist in the `images/` folder
-
-**Issue: Form not submitting**
-- Solution: Verify your Web3Forms access key is correct and active
-
-**Issue: Animations not working**
-- Solution: Ensure JavaScript is enabled in your browser
-
-**Issue: Mobile menu not closing**
-- Solution: Clear browser cache and reload
-
-## 🚀 Deployment
-
-### GitHub Pages
-
-1. Push your code to GitHub
-2. Go to Settings → Pages
-3. Select branch (main) and folder (root)
-4. Save and wait for deployment
-
-### Netlify
-
-1. Sign up at [Netlify](https://www.netlify.com/)
-2. Drag and drop your project folder
-3. Your site is live!
-
-### Vercel
-
-```bash
-npm install -g vercel
-vercel
-```
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/improvement`)
-3. Make your changes
-4. Commit your changes (`git commit -am 'Add new feature'`)
-5. Push to the branch (`git push origin feature/improvement`)
-6. Create a Pull Request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
